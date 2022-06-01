@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TryTimePoker</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<script src="main.js"></script>
+	<center><img src="trytime.png" width="50%" height="50%" alt="trytime"></center>
+	<center><div id="cards" alt="Background: Cards"><h1> Ryan Le Ber </h1>
+		<h2><p> <a href="https://www.twitch.com/trytimepoker" class="button">Twitch</a>
+			<a href="https://discord.gg/QRqMGYGgm8" class="button">Discord</a> 
+			<a href="https://www.twitter.com/trytimepoker" class="button">Twitter</a> <br><br>
+			<a href="https://www.instagram.com/rleber81" class="button">Instagram</a>
+			<a href="https://www.gofundme.com/f/the-stream-dream-stakehouse?utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer" class="button">Streamhouse</a>
+			</p></h2>
+	</div></center>
+	<center><img src="poker.png" width="50%" height="50%" alt="poker"></center>
+	<center><br><br><br><div id="twitch-embed"></div></center>
+	<script src="https://embed.twitch.tv/embed/v1.js"></script>
+	<script type="text/javascript">
+      new Twitch.Player("twitch-embed", {
+		  width: 854,
+		  height: 480, 
+    channel: "trytimepoker"
+		  
+  });
+    </script>
+</body>
+</html>
