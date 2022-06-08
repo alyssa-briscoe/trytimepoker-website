@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+	background-color: #1a1a1a;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+img#trytime {
+	width: 500px;
+	padding: 10px;
+}
+
+div.middle_content {
+	background-color: white;
+	width: 100vw;
+	height: auto;
+	color: #EE3A24;
+	display: inline-block;
+	font-size: 24pt;
+	font-weight: bolder;
+	padding: 30px;
+	word-spacing: 5vw;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #ee3a24;
+	
+}
+
+a:hover {
+	color: black;
+}
+
+img#poker{
+	width: 500px;
+	padding: 10px;
+}
+
+img#poker_hand {
+	width: 40vw;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
