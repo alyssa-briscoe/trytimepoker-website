@@ -2,8 +2,6 @@
 
 body {
 	background-color: #1a1a1a;
-	overflow-x: hidden;
-	overflow-y: hidden;
 }
 
 img#trytime {
@@ -19,7 +17,7 @@ div.middle_content {
 	display: inline-block;
 	font-size: 24pt;
 	font-weight: bolder;
-	padding: 30px;
+	padding: 20px;
 	word-spacing: 5vw;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -43,4 +41,31 @@ img#poker_hand {
 	width: 40vw;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.button {
+	text-decoration: none;
+	color: #ee3a24;
+}
+
+div#watch {
+	cursor:pointer;
+}
+div#watch:hover {
+	color: black;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+div#created{
+	color: darkslategrey;
+	font-size: 14pt;
+
+}
+a#github {
+ color: darkslategrey;
+ text-decoration: none;
+
 }
