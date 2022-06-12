@@ -49,23 +49,26 @@ img#poker_hand {
 }
 
 div#watch {
-	cursor:pointer;
+	cursor: pointer;
 }
 div#watch:hover {
 	color: black;
+	cursor: pointer;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar  {
 	display: none;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 div#created{
-	color: darkslategrey;
+	color: rgb(56, 56, 56);
 	font-size: 14pt;
 
 }
 a#github {
- color: darkslategrey;
+ color: rgb(56, 56, 56);
  text-decoration: none;
 
 }
